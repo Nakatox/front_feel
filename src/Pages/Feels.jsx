@@ -18,7 +18,7 @@ const Feels = () => {
     const [option, setoption] = useState([]);
     const [formData, setformData] = useState([]);
     const [newDate, setnewDate] = useState(new Date());
-    const [isCustom, setisCustom] = useState(false);
+    const [isCustom, setisCustom] = useState(false); 
 
     const getFeels = async () => {
         const data =  await getFeelsAPI()
